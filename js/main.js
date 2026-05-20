@@ -5,6 +5,7 @@ const navLinks = document.querySelectorAll('.mobile-drawer a, .nav-links a');
 if (navToggle && mobileDrawer) {
   navToggle.addEventListener('click', () => {
     const isOpen = mobileDrawer.classList.toggle('open');
+    navToggle.classList.toggle('open', isOpen);
     navToggle.setAttribute('aria-expanded', String(isOpen));
     mobileDrawer.setAttribute('aria-hidden', String(!isOpen));
   });
