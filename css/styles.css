@@ -681,11 +681,11 @@ button {
     grid-template-columns: 1fr;
     min-height: auto;
     height: auto;
-    padding: 3rem 1.5rem 2rem;
+    padding: 2rem 1.5rem 1.5rem;
   }
 
   .hero-visual {
-    order: -1;
+    display: none;
   }
 
   #about {
