@@ -500,6 +500,16 @@ button {
   font-weight: 300;
 }
 
+.service-card .tag-list {
+  margin-top: 0;
+  gap: 0.5rem;
+}
+
+.service-card .tag {
+  padding: 0.4rem 0.75rem;
+  font-size: 10px;
+}
+
 .testimonials {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -618,6 +628,16 @@ button {
   font-size: 13px;
   line-height: 1.7;
   color: var(--cp-green-700);
+}
+
+.booking-card .tag-list {
+  margin-top: 0;
+  gap: 0.5rem;
+}
+
+.booking-card .tag {
+  padding: 0.4rem 0.75rem;
+  font-size: 10px;
 }
 
 .booking-contact {
